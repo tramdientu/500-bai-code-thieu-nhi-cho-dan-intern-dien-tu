@@ -1,4 +1,4 @@
-# 🚀 ESP32 Learning Projects
+# 🚀 Trạm Điện Tử
 
 Tổng hợp các bài học và project thực hành với ESP32 sử dụng PlatformIO.
 Phù hợp cho người mới bắt đầu đến nâng cao.
