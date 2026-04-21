@@ -1,0 +1,170 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Build files
+build/
+*.bin
+*.elf
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ===================================
+# PlatformIO
+# ===================================
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# ===================================
+# ESP-IDF generated files
+# ===================================
+build/
+sdkconfig.*
+sdkconfig.old
+sdkconfig.esp32-s3-devkitc-1
+sdkconfig.*.old
+dependencies.lock
+managed_components/
+
+# KHÔNG ignore sdkconfig.defaults (cần commit để share config)
+!sdkconfig.defaults
+
+# ===================================
+# VS Code
+# ===================================
+.vscode/.browse.c_cpp_properties.json
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch/
+.vscode/settings.json
+
+# Giữ lại extensions.json để share extension recommendations
+!.vscode/extensions.json
+
+# ===================================
+# Compile / Build artifacts
+# ===================================
+*.o
+*.obj
+*.a
+*.lib
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.su
+*.d
+compile_commands.json
+
+# ===================================
+# Python cache (cho scripts ESP-IDF)
+# ===================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# ===================================
+# OS-specific files
+# ===================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===================================
+# Editor / IDE files
+# ===================================
+# Vim
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Emacs
+\#*\#
+.\#*
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains (CLion, IntelliJ)
+.idea/
+*.iml
+
+# Eclipse
+.cproject
+.project
+.settings/
+
+# ===================================
+# Logs & temporary files
+# ===================================
+*.log
+*.tmp
+*.temp
+*.pid
+*.seed
+
+# ===================================
+# Backup files
+# ===================================
+*.backup
+*.orig
+*.rej
+main.c.bak
+*.bak
+
+# ===================================
+# Documentation generated
+# ===================================
+docs/_build/
+docs/html/
+docs/latex/
+
+# ===================================
+# Environment / Secrets (nếu có)
+# ===================================
+.env
+.env.local
+secrets.h
+wifi_config.h
+
+# ===================================
+# Custom (project-specific)
+# ===================================
+# Firmware backup, logs capture
+firmware_backup/
+logs/
+*.bin.old
+
+# Test output
+test_output/
+coverage/
