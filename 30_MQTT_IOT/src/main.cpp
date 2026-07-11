@@ -17,13 +17,13 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 // =====================
 // Cấu hình WiFi
 // =====================
-const char *ssid     = "Wifi Free";
-const char *password = "2025@Abc";
+const char *ssid     = "";
+const char *password = "";
 
 // =====================
 // Cấu hình MQTT
 // =====================
-const char *mqtt_server = "192.168.1.141";
+const char *mqtt_server = "";
 
 WiFiClient   espClient;
 PubSubClient client(espClient);
